@@ -70,3 +70,24 @@ option {
     background-color: rgb(53, 53, 53);
     padding: 12px;
 }
+
+table {
+    width: 80%;
+    margin: 6px auto;
+    border: 1px solid black;
+}
+
+thead th {
+    background-color: green;
+    border-radius: 1px solid;
+    font-size: 18px;
+}
+
+td {
+    border: 1px solid red;
+    padding: 6px;
+}
+
+tbody tr:ntb-child(even) {
+    background-color: aqua;
+}
